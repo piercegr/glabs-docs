@@ -2,7 +2,6 @@
 
 * **ID:** gLabs-GEN-STD-000
 * **Status:** Active
-* **Version:** v0.2.0 - 2026-05-20
 * **Owner:** gLabs genGov
 * **Priority:** Must
 
@@ -64,7 +63,6 @@ Every gLabs document must begin with:
 
 * **ID:** gLabs-[DIV]-[TYPE]-[NNN]
 * **Status:** Active | Draft | Deprecated
-* **Version:** v[MAJOR].[MINOR].[PATCH] - YYYY-MM-DD
 * **Owner:** gLabs [division internal name]
 * **Priority:** Must | Should | May
 

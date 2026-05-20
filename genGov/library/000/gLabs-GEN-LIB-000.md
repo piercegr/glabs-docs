@@ -2,7 +2,6 @@
 
 * **ID:** gLabs-GEN-LIB-000
 * **Status:** Active
-* **Effective date:** 2026-05-20
 * **Owner:** gLabs genGov
 * **Priority:** Should
 
