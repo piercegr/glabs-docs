@@ -19,7 +19,6 @@
 | INFRA | infraMgmt | Infrastructure & hosting |
 | ME    | mechEng   | Mechanical engineering   |
 | EE    | elecEng   | Electrical engineering   |
-| CAD   | cadInfra  | CAD infrastructure       |
 
 **Document types**
 
