@@ -1,8 +1,10 @@
 # gLabs - Standard Practices & Procedures
 
-**ID:** gLabs-GEN-STD-000  
-**Status:** Active  
-**Version:** v0.1.0 - 2026-05-20
+* **ID:** gLabs-GEN-STD-000
+* **Status:** Active
+* **Version:** v0.2.0 - 2026-05-20
+* **Owner:** gLabs genGov
+* **Priority:** Must
 
 ---
 
@@ -35,12 +37,12 @@
 
 | Range   | Purpose                   |
 |---------|---------------------------|
-| 000–099 | Governance / fundamentals |
-| 100–199 | Implementation            |
-| 200–299 | Documentation             |
-| 300–399 | File & repo structure     |
-| 400–499 | Review & release          |
-| 900–999 | Deprecated                |
+| 000-099 | Governance / fundamentals |
+| 100-199 | Implementation            |
+| 200-299 | Documentation             |
+| 300-399 | File & repo structure     |
+| 400-499 | Review & release          |
+| 900-999 | Deprecated                |
 
 Rules: IDs never reused. Titles can change, IDs cannot.
 
@@ -50,21 +52,33 @@ Rules: IDs never reused. Titles can change, IDs cannot.
 
 Every named entity has three forms:
 
-- **Code** - uppercase, 2–3 letters, used in IDs (e.g. SD)
-- **Internal** - camelCase, used in discussion (e.g. softDev)
-- **Descriptive** - full lowercase phrase, used in docs (e.g. software development)
+* **Code** - uppercase, 2-3 letters, used in IDs (e.g. SD)
+* **Internal** - camelCase, used in discussion (e.g. softDev)
+* **Descriptive** - full lowercase phrase, used in docs (e.g. software development)
 
 ---
 
-## 3. Compliance Levels
+## 3. Document Header Format
 
-- **Must** - Required
-- **Should** - Expected unless justified
-- **May** - Optional
+Every gLabs document must begin with:
+
+* **ID:** gLabs-[DIV]-[TYPE]-[NNN]
+* **Status:** Active | Draft | Deprecated
+* **Version:** v[MAJOR].[MINOR].[PATCH] - YYYY-MM-DD
+* **Owner:** gLabs [division internal name]
+* **Priority:** Must | Should | May
 
 ---
 
-## 4. Changes
+## 4. Compliance Levels
 
-Open a PR and get at least one review before merging. Bump the version.  
+* **Must** - Required
+* **Should** - Expected unless justified
+* **May** - Optional
+
+---
+
+## 5. Changes
+
+Open a PR and get at least one review before merging. Bump the version.
 Solo contributors may commit directly until the team grows.
